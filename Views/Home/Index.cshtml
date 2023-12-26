@@ -1,0 +1,20 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Partial view</h1>
+    <p>
+        A partial view as a special kind of view that can render a portion of view content.
+        <br /> We can put partial view where we want to put,<br />
+        we have four methods to access partial view in MVC .net framework.
+    </p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h4>First way</h4>
+        @{ Html.RenderPartial("_PartialPage1");}
+    </div>
+    
+</div>
